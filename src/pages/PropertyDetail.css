@@ -1,0 +1,155 @@
+.property-detail-page {
+  background-color: var(--bg-light);
+  min-height: 100vh;
+}
+
+.pd-banner {
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-top: 80px; /* navbar offset */
+  display: flex;
+  align-items: flex-end;
+}
+
+.pd-banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.2) 100%);
+}
+
+.pd-header {
+  padding-bottom: 3rem;
+  color: white;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+}
+
+.back-link:hover {
+  color: white;
+}
+
+.badge {
+  display: inline-block;
+  background-color: var(--accent);
+  color: white;
+  padding: 0.35rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.pd-header h1 {
+  color: white;
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.location-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  color: #cbd5e1;
+}
+
+.pd-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.pd-card {
+  background: white;
+  border-radius: 8px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+  margin-bottom: 2rem;
+}
+
+.pd-card h3 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.price-tag {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 2rem;
+}
+
+.key-specs {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.spec-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.1rem;
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+.spec-item svg {
+  color: var(--text-light);
+}
+
+.pd-description p {
+  color: var(--text-dark);
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.amenities-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.amenities-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--text-dark);
+}
+
+.contact-widget p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 992px) {
+  .pd-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .pd-header h1 {
+    font-size: 2rem;
+  }
+  .amenities-list {
+    grid-template-columns: 1fr;
+  }
+}

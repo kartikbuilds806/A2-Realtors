@@ -1,0 +1,59 @@
+.ts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ts-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: var(--transition);
+}
+
+.ts-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.icon-wrapper {
+  margin-bottom: 1rem;
+}
+
+.ts-card h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary);
+}
+
+.ts-card p {
+  color: var(--text-light);
+  font-weight: 500;
+  margin: 0;
+}
+
+.ts-tagline p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent);
+  font-style: italic;
+  margin-top: 2rem;
+}
+
+@media (max-width: 992px) {
+  .ts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .ts-grid {
+    grid-template-columns: 1fr;
+  }
+  .ts-tagline p {
+    font-size: 1.2rem;
+  }
+}

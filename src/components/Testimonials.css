@@ -1,0 +1,67 @@
+.testi-grid {
+  gap: 2rem;
+}
+
+.testi-card {
+  background: white;
+  padding: 3rem 2.5rem;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: var(--transition);
+}
+
+.testi-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.quote-icon {
+  color: rgba(201, 161, 74, 0.2);
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.testi-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+  font-style: italic;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.testi-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 1.5rem;
+}
+
+.author-avatar {
+  background-color: var(--secondary);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.testi-author h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--secondary);
+}
+
+.testi-author p {
+  margin: 0;
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
