@@ -12,6 +12,7 @@ import Properties from './pages/Properties';
 import PropertyDetail from './pages/PropertyDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import LandingPage from './pages/LandingPage';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -21,11 +22,14 @@ const ScrollToTop = () => {
   return null;
 };
 
-function App() {
+const MainLayout = () => {
+  const { pathname } = useLocation();
+  const isPromoPage = pathname === '/promo';
+
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
-      <Navbar />
+      {!isPromoPage && <Navbar />}
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -33,10 +37,19 @@ function App() {
           <Route path="/properties/:id" element={<PropertyDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/promo" element={<LandingPage />} />
         </Routes>
       </main>
-      <Footer />
-      <FloatingActions />
+      {!isPromoPage && <Footer />}
+      {!isPromoPage && <FloatingActions />}
+    </>
+  );
+};
+
+function App() {
+  return (
+    <BrowserRouter>
+      <MainLayout />
     </BrowserRouter>
   );
 }
