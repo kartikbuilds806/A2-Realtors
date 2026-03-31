@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <footer className="footer bg-dark">
       <div className="container footer-wrapper grid grid-4">
-        
+
         <div className="footer-col brand-info">
-          <img src="/logo.png" alt="Tandon Properties Logo" style={{ filter: 'brightness(0) invert(1)' }} className="footer-logo" />
-          <p>One of Dehradun’s most trusted real estate consultancies with over 25+ years of experience. Known for honesty, transparency, and deep market knowledge.</p>
+          <img src="/logo.png" alt="A2 Realtors Logo" style={{ filter: 'brightness(0) invert(1)' }} className="footer-logo" />
+          <p>A trusted real estate agency in Dehradun with over 14 years of experience. Known for honesty, transparency, and genuine property deals.</p>
           <div className="social-links">
             <a href="#" className="social-icon"><Camera size={20} /></a>
             <a href="#" className="social-icon"><Globe size={20} /></a>
@@ -42,11 +42,11 @@ const Footer = () => {
           <ul className="contact-list">
             <li>
               <MapPin size={20} className="text-accent" />
-              <span>1st Floor, Mussoorie Diversion, Pacific Hills, 15 Rajpur Rd, Malsi, Dehradun, Uttarakhand</span>
+              <span>25 B, Inder Road, Dalanwala, Dehradun, Uttarakhand – 248001</span>
             </li>
             <li>
               <Phone size={20} className="text-accent" />
-              <a href="tel:9412075428">+91 94120 75428</a>
+              <a href="tel:8445190135">+91 8445190135</a>
             </li>
             <li>
               <Mail size={20} className="text-accent" />
@@ -56,10 +56,10 @@ const Footer = () => {
         </div>
 
       </div>
-      
+
       <div className="footer-bottom">
         <div className="container text-center">
-          <p>&copy; {new Date().getFullYear()} Tandon Properties. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} A2 Realtors. All rights reserved.</p>
         </div>
       </div>
     </footer>

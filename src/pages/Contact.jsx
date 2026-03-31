@@ -19,28 +19,28 @@ const Contact = () => {
            <div className="contact-method-card">
               <div className="cm-icon"><MapPin size={32} /></div>
               <h3>Visit Our Office</h3>
-              <p>1st Floor, Mussoorie Diversion, Pacific Hills, 15 Rajpur Rd, Malsi, Dehradun, Uttarakhand</p>
+              <p>25 B, Inder Road, Dalanwala, Dehradun, Uttarakhand – 248001</p>
            </div>
            
            <div className="contact-method-card">
               <div className="cm-icon"><Phone size={32} /></div>
               <h3>Call Us Today</h3>
-              <a href="tel:9412075428" className="contact-link">+91 94120 75428</a>
+              <a href="tel:8445190135" className="contact-link">+91 8445190135</a>
               <p>Available for WhatsApp</p>
            </div>
            
            <div className="contact-method-card">
-              <div className="cm-icon"><Mail size={32} /></div>
-              <h3>Email Us</h3>
-              <a href="mailto:info@tandonproperties.com" className="contact-link">info@tandonproperties.com</a>
-              <p>Drop us a line anytime!</p>
+              <div className="cm-icon"><MapPin size={32} /></div>
+              <h3>Service Areas</h3>
+              <p className="contact-link">Dehradun and nearby locations</p>
+              <p>Covering prime real estate hubs</p>
            </div>
            
            <div className="contact-method-card">
               <div className="cm-icon"><Clock size={32} /></div>
-              <h3>Working Hours</h3>
-              <p>Mon - Sat</p>
-              <p className="contact-link">10:30 AM – 7:30 PM</p>
+              <h3>Availability</h3>
+              <p>Mon - Sun</p>
+              <p className="contact-link">Open 24 Hours</p>
            </div>
 
         </div>

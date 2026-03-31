@@ -5,17 +5,17 @@ import './Testimonials.css';
 const Testimonials = () => {
   const reviews = [
     {
-      text: "A very smooth and stress-free process. From the first site visit to the final paperwork, Tandon Properties handled everything professionally.",
+      text: "Very genuine service, I wanted a property and got exactly what I wanted. Absolutely recommended.",
       author: "Rajiv Sharma",
       role: "Homeowner"
     },
     {
-      text: "Honest and professional. It's rare to find such transparency in real estate today. Highly recommended for any property investment.",
+      text: "Best property dealers in Dehradun, genuine deals and good experience.",
       author: "Meera Gupta",
       role: "Investor"
     },
     {
-      text: "Best property dealer in Dehradun. Mr. Pradeep Tandon has deep market knowledge that helped us secure a prime commercial spot.",
+      text: "Very professional and fair in deals. Highly recommended.",
       author: "Amit Verma",
       role: "Business Owner"
     }

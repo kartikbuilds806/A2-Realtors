@@ -4,11 +4,11 @@ import './Services.css';
 
 const Services = () => {
   const serviceList = [
-    { id: 1, icon: <Home size={40} />, title: "Residential Buying & Selling", desc: "Find your dream home or get the best price for your current property with our expert valuation." },
-    { id: 2, icon: <Building2 size={40} />, title: "Commercial Deals", desc: "Prime office spaces and retail shops located in Dehradun's major commercial hubs." },
-    { id: 3, icon: <Map size={40} />, title: "Land & Plot Sales", desc: "Verified agricultural and residential plots ready for investment or construction." },
-    { id: 4, icon: <Handshake size={40} />, title: "Property Consultation", desc: "Honest and transparent advisory for all your real estate portfolios and investments." },
-    { id: 5, icon: <Hotel size={40} />, title: "Leasing", desc: "Specializing in the leasing of hotels and expansive agricultural lands for commercial use." },
+    { id: 1, icon: <Home size={40} />, title: "Buying & Selling Residential Properties", desc: "Find your dream home or get the best price for your current property with our expert valuation." },
+    { id: 2, icon: <Map size={40} />, title: "Plots & Land Investment", desc: "Verified residential plots and land ready for investment or construction." },
+    { id: 3, icon: <Hotel size={40} />, title: "Premium & Luxury Homes", desc: "Exclusive luxury homes, penthouses, and duplexes located in prime Dehradun neighborhoods." },
+    { id: 4, icon: <Building2 size={40} />, title: "Commercial Property Deals", desc: "Prime office spaces, retail shops, and commercial land in major hubs." },
+    { id: 5, icon: <Handshake size={40} />, title: "Property Consultation & Investment Guidance", desc: "Honest and transparent advisory for all your real estate investments." },
   ];
 
   return (

@@ -24,14 +24,14 @@ const Hero = () => {
       <div className="hero-overlay"></div>
       <div className="container hero-content">
         <div className="hero-text">
-          <h1>Find Your Perfect <span className="text-accent">Property</span> in Dehradun</h1>
-          <p className="hero-subtitle">Trusted Real Estate Experts Since 1995</p>
+          <h1>Find Your Dream <span className="text-accent">Property</span> in Dehradun</h1>
+          <p className="hero-subtitle">Trusted Real Estate Experts with 14+ Years of Experience in Delivering Genuine & Profitable Property Deals</p>
           <div className="hero-ctas">
             <Link to="/properties" className="btn btn-primary d-flex">
-              Explore Properties <ArrowRight size={18} style={{marginLeft: '8px', verticalAlign: 'middle'}}/>
+              Book Site Visit <ArrowRight size={18} style={{marginLeft: '8px', verticalAlign: 'middle'}}/>
             </Link>
-            <a href="tel:9412075428" className="btn btn-outline" style={{borderColor: 'white', color: 'white'}}>
-              Call Now
+            <a href="https://wa.me/918445190135" className="btn btn-outline" target="_blank" rel="noreferrer" style={{borderColor: 'white', color: 'white'}}>
+              Contact on WhatsApp
             </a>
           </div>
         </div>

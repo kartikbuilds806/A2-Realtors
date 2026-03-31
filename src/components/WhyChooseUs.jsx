@@ -4,10 +4,11 @@ import './WhyChooseUs.css';
 
 const WhyChooseUs = () => {
   const reasons = [
-    { title: "Honest & Transparent Deals", desc: "We ensure complete transparency in every transaction without hidden costs." },
-    { title: "Verified Properties", desc: "Every property goes through a strict legal and physical background check." },
-    { title: "Local Market Expertise", desc: "With our 25+ years in Dehradun, our localized knowledge guarantees the best valuation." },
-    { title: "Personalized Service", desc: "A tailored end-to-end approach matching each client with their perfect property." },
+    { title: "14+ Years of Experience", desc: "With over 14 years in the real estate sector, we bring unmatched expertise." },
+    { title: "Trusted by Hundreds of Happy Clients", desc: "Our commitment to excellence has helped hundreds find their dream properties." },
+    { title: "Genuine & Verified Deals", desc: "Every property goes through a strict legal and physical background check." },
+    { title: "Strong Local Market Knowledge", desc: "Our localized knowledge guarantees the best property deals in Dehradun." },
+    { title: "End-to-End Support from Inquiry to Deal Closure", desc: "A tailored approach matching each client with their perfect property, right till the end." },
   ];
 
   return (
@@ -16,9 +17,9 @@ const WhyChooseUs = () => {
         
         <div className="wcu-image">
           {/* using the hero bg temporarily assuming placeholder since it's an interior/luxury context */}
-          <img src="/hero-bg.png" alt="Why Choose Tandon Properties" />
+          <img src="/hero-bg.png" alt="Why Choose A2 Realtors" />
           <div className="wcu-float-box">
-            <h4>25+ Years</h4>
+            <h4>14+ Years</h4>
             <p>of Trust & Excellence</p>
           </div>
         </div>
@@ -44,7 +45,7 @@ const WhyChooseUs = () => {
           </div>
           
           <div style={{marginTop: '2.5rem'}}>
-             <a href="tel:9412075428" className="btn btn-primary">Speak to an Expert</a>
+             <a href="tel:8445190135" className="btn btn-primary">Speak to an Expert</a>
           </div>
         </div>
       </div>

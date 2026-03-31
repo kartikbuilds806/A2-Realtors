@@ -22,8 +22,8 @@ const CtaForm = () => {
     <section className="cta-section section text-center">
       <div className="container">
         <div className="cta-box">
-          <h2>Book Your Free Property Consultation Today</h2>
-          <p>Whether you're looking to buy, sell, or rent — our experts are ready to guide you step-by-step.</p>
+          <h2>Looking for the perfect property?</h2>
+          <p>Contact A2 Realtors today and book your site visit with our experts.</p>
           
           <form className="cta-form" onSubmit={handleLeadSubmit}>
             <div className="form-row">
@@ -35,7 +35,7 @@ const CtaForm = () => {
 
           <div className="cta-alternatives">
             <span>Or chat with us immediately</span>
-            <a href="https://wa.me/919412075428" target="_blank" rel="noreferrer" className="btn whatsapp-direct-btn">
+            <a href="https://wa.me/918445190135" target="_blank" rel="noreferrer" className="btn whatsapp-direct-btn">
               <MessageCircle size={20} /> Chat on WhatsApp
             </a>
           </div>
