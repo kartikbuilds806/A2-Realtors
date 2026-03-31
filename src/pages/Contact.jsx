@@ -25,7 +25,7 @@ const Contact = () => {
            <div className="contact-method-card">
               <div className="cm-icon"><Phone size={32} /></div>
               <h3>Call Us Today</h3>
-              <a href="tel:8445190135" className="contact-link">+91 8445190135</a>
+              <a href="tel:08445190135" className="contact-link">08445190135</a>
               <p>Available for WhatsApp</p>
            </div>
            

@@ -46,7 +46,7 @@ const Footer = () => {
             </li>
             <li>
               <Phone size={20} className="text-accent" />
-              <a href="tel:8445190135">+91 8445190135</a>
+              <a href="tel:08445190135">08445190135</a>
             </li>
             <li>
               <Mail size={20} className="text-accent" />

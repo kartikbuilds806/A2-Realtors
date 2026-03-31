@@ -35,7 +35,7 @@ const Navbar = () => {
         </ul>
 
         <div className="nav-ctas desktop-only">
-          <a href="tel:8445190135" className="btn btn-outline nav-btn">
+          <a href="tel:08445190135" className="btn btn-outline nav-btn">
             <Phone size={18} /> Call Now
           </a>
           <a href="https://wa.me/918445190135" target="_blank" rel="noreferrer" className="btn btn-primary nav-btn whatsapp-btn">
@@ -51,7 +51,7 @@ const Navbar = () => {
       {/* Mobile Menu Actions */}
       {isMobileMenuOpen && (
         <div className="mobile-actions">
-           <a href="tel:8445190135" className="btn btn-outline" style={{width: '90%', margin: '10px auto', display: 'flex', justifyContent: 'center', gap: '8px'}}>
+           <a href="tel:08445190135" className="btn btn-outline" style={{width: '90%', margin: '10px auto', display: 'flex', justifyContent: 'center', gap: '8px'}}>
             <Phone size={18} /> Call Now
           </a>
           <a href="https://wa.me/918445190135" target="_blank" rel="noreferrer" className="btn btn-primary" style={{width: '90%', margin: '10px auto', display: 'flex', justifyContent: 'center', gap: '8px'}}>

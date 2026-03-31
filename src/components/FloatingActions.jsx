@@ -6,7 +6,7 @@ const FloatingActions = () => {
   return (
     <div className="floating-actions">
       <a 
-        href="tel:9412075428" 
+        href="tel:08445190135" 
         className="floating-btn fb-call"
         aria-label="Call Us"
       >
@@ -14,7 +14,7 @@ const FloatingActions = () => {
       </a>
       
       <a 
-        href="https://wa.me/919412075428" 
+        href="https://wa.me/918445190135" 
         className="floating-btn fb-whatsapp"
         aria-label="WhatsApp Us"
         target="_blank"

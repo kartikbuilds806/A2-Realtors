@@ -84,10 +84,10 @@ const PropertyDetail = () => {
              <p>Contact us immediately to book a visit or negotiate the price.</p>
              
              <div className="widget-actions">
-               <a href="tel:9412075428" className="btn btn-outline w-100 d-flex justify-center" style={{marginBottom: '1rem'}}>
+               <a href="tel:08445190135" className="btn btn-outline w-100 d-flex justify-center" style={{marginBottom: '1rem'}}>
                   <Phone size={18} style={{marginRight: '8px'}}/> Call Now
                </a>
-               <a href={`https://wa.me/919412075428?text=I'm interested in ${property.title} (${property.price})`} target="_blank" rel="noreferrer" className="btn btn-primary w-100 d-flex justify-center">
+               <a href={`https://wa.me/918445190135?text=I'm interested in ${property.title} (${property.price})`} target="_blank" rel="noreferrer" className="btn btn-primary w-100 d-flex justify-center">
                   Chat on WhatsApp
                </a>
              </div>
