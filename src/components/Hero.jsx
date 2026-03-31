@@ -15,7 +15,16 @@ const Hero = () => {
         event_label: 'hero_form'
       });
     }
-    alert("Thank you! Our experts will contact you shortly.");
+    const formData = new FormData(e.target);
+    const name = formData.get('name') || '';
+    const phone = formData.get('phone') || '';
+    const interest = formData.get('interest') || '';
+
+    const text = `Hello A2 Realtors, I would like to book a site visit/consultation.\n\nName: ${name}\nPhone: ${phone}\nInterested In: ${interest}`;
+    const phoneNum = "918445190135";
+    const waUrl = `https://wa.me/${phoneNum}?text=${encodeURIComponent(text)}`;
+    window.open(waUrl, '_blank');
+
     e.target.reset();
   };
 
@@ -41,14 +50,14 @@ const Hero = () => {
           <p>Leave your details and our experts will get back to you.</p>
           <form className="hero-lead-form" onSubmit={handleLeadSubmit}>
             <div className="form-group">
-              <input type="text" className="form-control" placeholder="Your Name" required />
+              <input type="text" name="name" className="form-control" placeholder="Your Name" required />
             </div>
             <div className="form-group">
-              <input type="tel" className="form-control" placeholder="Phone Number" required />
+              <input type="tel" name="phone" className="form-control" placeholder="Phone Number" required />
             </div>
             <div className="form-group">
-              <select className="form-control" required>
-                <option value="" disabled selected>Interested In</option>
+              <select className="form-control" name="interest" defaultValue="" required>
+                <option value="" disabled>Interested In</option>
                 <option value="residential">Residential Property</option>
                 <option value="commercial">Commercial Property</option>
                 <option value="land">Land / Plot</option>

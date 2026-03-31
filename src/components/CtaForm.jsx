@@ -14,7 +14,15 @@ const CtaForm = () => {
         event_label: 'footer_cta_form'
       });
     }
-    alert("Thanks for reaching out! We will be in touch soon.");
+    const formData = new FormData(e.target);
+    const name = formData.get('name') || '';
+    const phone = formData.get('phone') || '';
+
+    const text = `Hello A2 Realtors, I would like to book a consultation.\n\nName: ${name}\nPhone: ${phone}`;
+    const phoneNum = "918445190135";
+    const waUrl = `https://wa.me/${phoneNum}?text=${encodeURIComponent(text)}`;
+    window.open(waUrl, '_blank');
+
     e.target.reset();
   };
 
@@ -27,8 +35,8 @@ const CtaForm = () => {
           
           <form className="cta-form" onSubmit={handleLeadSubmit}>
             <div className="form-row">
-              <input type="text" className="form-control" placeholder="Full Name" required />
-              <input type="tel" className="form-control" placeholder="Phone Number" required />
+              <input type="text" name="name" className="form-control" placeholder="Full Name" required />
+              <input type="tel" name="phone" className="form-control" placeholder="Phone Number" required />
               <button type="submit" className="btn btn-primary">Book Consultation</button>
             </div>
           </form>
